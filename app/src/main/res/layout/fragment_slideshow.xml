@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:text="Las siguientes zonas de riesgo son un aproximado
+y unos supuestos, resultado de las investigaciones de nuestro equipo mas
+no muestran la situacion actual y no se deberia tomar como fuentes 100% veridicas e irrefutables."
+        android:textSize="30dp"
+        app:layout_constraintVertical_bias="0.173">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/botonaceptar"
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:textSize="18dp"
+        android:background="@drawable/ic_bottoncerrar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:text="Entiendo y continuar"
+        >
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
